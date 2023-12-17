@@ -71,7 +71,7 @@ body {
 
 .herotext {
     display: flex;
-    width: 40%;
+    width: 37%;
     font-size: 1.6rem;
     flex-direction: column;
     color: #f9faf8;
@@ -79,9 +79,11 @@ body {
 }
 .herotext h1 {
     margin-bottom: 0;
+    font-size: 2.8rem;
 }
 .herotext p {
     margin-top: 0;
+    font-size: 1.3rem;
 }
 .herotext a {
     text-decoration: none;
@@ -96,4 +98,141 @@ body {
     width: 6.4rem;
     text-decoration: none;
     border: none;
+}
+
+.section3 {
+    background-color: #f9faf8;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    font-size: 1.5rem;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    background-color:#f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.box {
+    display: flex;
+    border: .3rem solid #3882f6;
+    border-radius: .8rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.subtext {
+    display: flex;
+    width: 8rem;
+    background-color:#f9faf8;
+    color:grey;
+    font-size: .85rem;
+}
+
+.section5 {
+    background-color: #e5e7eb;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-bottom: 3rem;
+}
+.section5 p {
+    color: #1f2937;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.section5 h3 {
+    align-self: flex-end;
+    font-size: 1.8rem;
+}
+
+.section6 {
+    display: flex;
+    width: 98%;
+    background-color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.white {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color:#f9faf8;
+}
+
+.white h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+}
+
+.white p {
+    margin-top: 0rem;
+}
+
+.blue a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 1.1rem;
+}
+
+.blue button {
+    background-color: #3882f6;
+    border-radius: .3rem;
+    width: 7rem;
+    height: 2rem;
+    border: .1rem solid #f9faf8;
+    text-decoration: none;
+}
+
+.section7 {
+    display: flex;
+    width: 98%;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.section7 p {
+    color:#f9faf8
 }
